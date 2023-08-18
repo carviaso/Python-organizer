@@ -1,10 +1,12 @@
 # Organizr
 A couple of organizing scripts. Enjoy :)
-<code>
 
+## Image compressor in compressor.py
+<code>
     from PIL import Image # python3 -m pip install Pillow    
     import os
     
+    # definition path
     downloadsFolder = "/Users/nicolasschurmann/Downloads/"
     
     if __name__ == "__main__":
