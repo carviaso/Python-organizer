@@ -2,7 +2,7 @@
 A couple of organizing scripts. Enjoy :)
 
 ## Image compressor in compressor.py
-<code>
+````
     from PIL import Image # python3 -m pip install Pillow    
     import os
     
@@ -16,4 +16,4 @@ A couple of organizing scripts. Enjoy :)
     if extension in [".jpg", ".jpeg", ".png"]:
         picture = Image.open(downloadsFolder + filename)
         picture.save(downloadsFolder + "compressed_"+filename, optimize=True, quality=60)
-</code>
+````
