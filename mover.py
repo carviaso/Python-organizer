@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image # python3 -m pip install Pillow
 import os
 
 downloadsFolder = "/Users/nicolasschurmann/Downloads/"
